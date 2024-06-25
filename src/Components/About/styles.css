@@ -1,0 +1,71 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.left{
+    max-width: 60%;
+}
+.bio{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.passion{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.typewriter{
+    color: #854ce6;
+}
+.description{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+.socials{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.social-icon{
+    border: 0.1rem solid #8f57ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #8f57ef;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;            
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
