@@ -2,9 +2,10 @@ import React from "react";
 import profile from "../../assets/user.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from "@mui/icons-material/Launch";
 import "./styles.css";
 import { Link } from "react-router-dom";
@@ -38,8 +39,7 @@ const About = () => {
           challenges. With a passion for learning, Demonstrated expertise in
           HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am dedicated to
           delivering high-quality results. With a positive attitude and a growth
-          mindset, I am ready to make a meaningful contribution and achieve
-          great things.
+          mindset ✨
         </div>
         <div className="socials">
           <Link
@@ -49,13 +49,13 @@ const About = () => {
           >
             <FacebookRoundedIcon style={{ fontSize: "1.8rem" }} />
           </Link>
-          <Link
+          {/* <Link
             to="https://x.com/debasis_nayak12"
             target="_blank"
             className="social-icon"
           >
             <TwitterIcon style={{ fontSize: "1.8rem" }} />
-          </Link>
+          </Link> */}
           <Link
             to="https://www.instagram.com/debasisnayak_12?igsh=MTJnN2VsZmJnYmZuOA=="
             target="_blank"
@@ -69,6 +69,13 @@ const About = () => {
             className="social-icon"
           >
             <LinkedInIcon style={{ fontSize: "1.8rem" }} />
+          </Link>
+          <Link
+            to="https://github.com/debasisnayak12"
+            target="_blank"
+            className="social-icon"
+          >
+            <GitHubIcon style={{ fontSize: "1.8rem" }} />
           </Link>
         </div>
         <Link

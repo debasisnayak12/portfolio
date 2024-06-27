@@ -19,6 +19,9 @@ export default function TemporaryDrawer() {
           <Link to="/skills">
             <p className="link">Skills</p>
           </Link>
+          <Link to="/experience">
+            <p className="link">Experience</p>
+          </Link>
           <Link to="/project">
             <p className="link">Project</p>
           </Link>

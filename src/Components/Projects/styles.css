@@ -1,0 +1,88 @@
+.project-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.project-card{
+    max-width: 900px;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.1px solid rgb(48, 110, 232);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+.project-img img {
+    height: 400px;
+    width: 100%;
+    border-radius: 1rem;
+}
+.project-bio{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.project-head{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.project-duration{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(177, 178, 179);
+}
+.project-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.project-skills div{
+    font-size: 0.9rem;
+    color: var(--primary);
+    border: 1px solid #854CE6;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    background: #251e3a;
+}
+
+.project-desc{
+    color: rgb(235, 235, 235);
+}
+.project-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.view-code, .view-live{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+.view-code button, .view-live button{
+    background: transparent;
+    border: none;
+    color: white;       
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+}
+.view-code{
+        background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+}
+.view-live{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-size: 200% auto;
+   
+    transition: 0.5s;
+}
