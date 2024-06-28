@@ -101,6 +101,10 @@
     flex: 0 !important;
     padding:0 !important;
   }
+  .css-628fjv::before{
+    flex: 0 !important;
+    padding: 0 !important;
+  }
   .company-logo img {
     height: 3rem;
     width: 3.5rem;
