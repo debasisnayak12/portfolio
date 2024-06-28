@@ -96,9 +96,9 @@
   }
   .css-1ms7hib-MuiTimelineItem-root::before {
     content: "";
-    -webkit-flex: unset !important;
-    /* -ms-flex: 1; */
-    flex: unset !important;
+    -webkit-flex: 0 !important;
+    -ms-flex: 0 !important;
+    flex: 0 !important;
     padding:0 !important;
   }
   .company-logo img {
