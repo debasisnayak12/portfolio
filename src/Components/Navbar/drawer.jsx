@@ -1,7 +1,7 @@
 import { Drawer, IconButton } from "@mui/material";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import { HashLink } from "react-router-hash-link";
 
 export default function TemporaryDrawer() {
   const [open, setOpen] = useState(false);
@@ -13,24 +13,24 @@ export default function TemporaryDrawer() {
       </IconButton>
       <Drawer anchor={"right"} open={open} onClose={() => setOpen(false)}>
         <div className="drawer-div">
-          <Link to="/">
+          <HashLink smooth to="#about">
             <p className="link">About</p>
-          </Link>
-          <Link to="/skills">
+          </HashLink>
+          <HashLink smooth to="#skills">
             <p className="link">Skills</p>
-          </Link>
-          <Link to="/experience">
+          </HashLink>
+          <HashLink smooth to="#experience">
             <p className="link">Experience</p>
-          </Link>
-          <Link to="/project">
+          </HashLink>
+          <HashLink smooth to="#projects">
             <p className="link">Project</p>
-          </Link>
-          <Link to="/education">
+          </HashLink>
+          <HashLink smooth to="#education">
           <p className="link">Education</p>
-        </Link>
-          <Link to="/contact">
+        </HashLink>
+          <HashLink smooth to="#contact">
             <p className="link">Contact Us</p>
-          </Link>
+          </HashLink>
         </div>
       </Drawer>
     </div>

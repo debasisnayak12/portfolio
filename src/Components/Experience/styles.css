@@ -95,7 +95,7 @@
     padding: 0.7rem 0.8rem;
   }
   .css-1ms7hib-MuiTimelineItem-root::before {
-    content: "";
+    content: "" !important;
     -webkit-flex: 0 !important;
     -ms-flex: 0 !important;
     flex: 0 !important;
