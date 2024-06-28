@@ -25,6 +25,9 @@ export default function TemporaryDrawer() {
           <Link to="/project">
             <p className="link">Project</p>
           </Link>
+          <Link to="/education">
+          <p className="link">Education</p>
+        </Link>
           <Link to="/contact">
             <p className="link">Contact Us</p>
           </Link>

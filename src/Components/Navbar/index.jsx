@@ -1,28 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./styles.css";
 import TemporaryDrawer from "./drawer";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <p className="logo">Portfolio.</p>
       <div className="links">
-        <Link to="/">
+        <HashLink smooth to="#about">
           <p className="link">About</p>
-        </Link>
-        <Link to="/skills">
+        </HashLink>
+        <HashLink smooth to="#skills">
           <p className="link">Skills</p>
-        </Link>
-        <Link to="/experience">
+        </HashLink>
+        <HashLink  smooth to="#experience">
           <p className="link">Experience</p>
-        </Link>
-        <Link to="/projects">
+        </HashLink>
+        <HashLink smooth to="#projects">
           <p className="link">Projects</p>
-        </Link>
-        <Link to="/contact">
+        </HashLink>
+        <HashLink smooth to="#education">
+          <p className="link">Education</p>
+        </HashLink>
+        <HashLink smooth to="#contact">
           <p className="link">Contact Us</p>
-        </Link>
+        </HashLink>
       </div>
       <div className="mobile-drawer">
         <TemporaryDrawer />

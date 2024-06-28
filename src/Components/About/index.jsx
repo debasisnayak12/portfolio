@@ -2,7 +2,6 @@ import React from "react";
 import profile from "../../assets/user.png";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
-// import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -21,7 +20,7 @@ const About = () => {
   });
 
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="left">
         <div className="bio">
           Hi, I am 👋
@@ -49,13 +48,6 @@ const About = () => {
           >
             <FacebookRoundedIcon style={{ fontSize: "1.8rem" }} />
           </Link>
-          {/* <Link
-            to="https://x.com/debasis_nayak12"
-            target="_blank"
-            className="social-icon"
-          >
-            <TwitterIcon style={{ fontSize: "1.8rem" }} />
-          </Link> */}
           <Link
             to="https://www.instagram.com/debasisnayak_12?igsh=MTJnN2VsZmJnYmZuOA=="
             target="_blank"
@@ -78,6 +70,7 @@ const About = () => {
             <GitHubIcon style={{ fontSize: "1.8rem" }} />
           </Link>
         </div>
+        <div className="resume-btn">
         <Link
           to="https://drive.google.com/file/d/1C6R_pRZ1C9_NdrqJoIV5W1tuC9_blAo2/view?usp=sharing"
           target="_blank"
@@ -87,6 +80,7 @@ const About = () => {
             <LaunchIcon/>
           </button>
         </Link>
+        </div>
       </div>
       <div className="right">
         <img src={profile} width="400px" alt="profile-pic" />

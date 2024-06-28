@@ -14,73 +14,108 @@
 }
 
 .timeline-content {
-    width: 650px;
-    border-radius: 10px;
-    padding: 12px 16px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.5rem;
-    transition: all 0.3s ease-in-out 0s;
-    border: 0.1px solid rgb(48, 110, 232);
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  }
-  .timeline-content:hover{
-    box-shadow: rgba(23, 92, 230, 0.3) 0px 8px 48px; 
-    transform: translateY(-5px); 
-  }
-  .company-info {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .company-logo img{
-    height: 3.5rem;
-    width: 4rem;
-    border-radius: 0.5rem;
-  }
-  
-  .cmpny-role{
-    font-size: 1.12rem;
-    font-weight: 600;
-    color: rgba(242,243,244,0.6);
-  }
+  width: 650px;
+  border-radius: 10px;
+  padding: 12px 16px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  transition: all 0.3s ease-in-out 0s;
+  border: 0.1px solid rgb(48, 110, 232);
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+.timeline-content:hover {
+  box-shadow: rgba(23, 92, 230, 0.3) 0px 8px 48px;
+  transform: translateY(-5px);
+}
+.company-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
 
-  .cmpny-name{
-    font-size: 0.8;
-    font-weight: 500;
-    color: rgba(177, 178, 179, 0.6);
+.company-logo img {
+  height: 3.5rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+}
+
+.cmpny-role {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: rgba(242, 243, 244, 0.6);
+}
+
+.cmpny-name {
+  font-size: 0.8;
+  font-weight: 500;
+  color: rgba(177, 178, 179, 0.6);
+}
+.cmpny-duration {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(177, 178, 179, 0.5);
+}
+.job-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.job-description {
+  color: var(--grey);
+}
+
+.skills-section {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--grey);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skills-section div {
+  font-size: 0.8rem;
+  color: var(--primary);
+  border: 1px solid #854CE6;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  background: #251e3a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+  .timeline-content {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
   }
-  .cmpny-duration{
+  .css-1ms7hib-MuiTimelineItem-root::before {
+    content: "";
+    -webkit-flex: unset !important;
+    /* -ms-flex: 1; */
+    flex: unset !important;
+    padding:0 !important;
+  }
+  .company-logo img {
+    height: 3rem;
+    width: 3.5rem;
+  }
+  .job-description{
+    font-size: 0.8rem;
+  }
+  .cmpny-role {
+    font-size: 1rem;
+  }
+  .cmpny-name,
+  .cmpny-duration {
     font-size: 0.75rem;
-    font-weight: 400;
-    color: rgba(177, 178, 179, 0.5);
-  }
-  .job-details {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .job-description {
-    color: var(--grey);
-  }
-  
-  .skills-section {
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: var(--grey);
   }
   .skills-section span{
-    color: var(--primary);
-    border: 1px solid #854CE6;
-    padding: 0.1rem 0.3rem;
-    border-radius: 0.75rem;
-    margin-right: 0.3rem;
-    background: #1e1932;
+    margin-bottom: 1rem;
   }
+}

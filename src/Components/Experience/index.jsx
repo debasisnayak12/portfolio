@@ -12,7 +12,7 @@ import logo from "../../assets/acciojob_logo.jpg";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <h1 className="head">Experience</h1>
       <p className="desc">
         My work experience as a Full Stack Developer and working on different
@@ -39,7 +39,7 @@ const Experience = () => {
                 <div className="job-description">
                   I worked on various projects, focusing on full stack development using technologies such as React, Node.js, and MongoDB.
                 </div>
-                <div className="skills-section">Skills :  <span> HTML</span> <span> CSS</span> <span> JavaScript</span> <span> React</span> <span> Redux</span> <span> Node.js</span> <span> MongoDB</span></div>
+                <div className="skills-section">Skills :  <div> HTML</div> <div> CSS</div> <div> JavaScript</div> <div> React</div> <div> Redux</div> <div> Node.js</div> <div> MongoDB</div></div>
               </div>
             </div>
           </TimelineContent>

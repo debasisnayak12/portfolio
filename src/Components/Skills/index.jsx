@@ -22,7 +22,7 @@ import "./styles.css";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h1 className="head">Skills</h1>
       <p className="desc">
         Here are some of my skills on which I have been working on for the past

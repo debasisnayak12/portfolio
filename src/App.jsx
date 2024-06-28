@@ -5,6 +5,12 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
+import Education from "./Components/Education";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import Backtotop from "./Components/Backtotop";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -15,7 +21,12 @@ const App = () => {
           <Skills />
           <Experience/>
           <Projects/>
+          <Education/>
+          <Contact/>
       </div>
+      <Footer/>
+      <Backtotop/>
+      <ToastContainer/>
     </div>
   );
 };
