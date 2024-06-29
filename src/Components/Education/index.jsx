@@ -1,6 +1,6 @@
 import React from 'react';
-import school from "../../assets/school.png";
-import college from "../../assets/college.jpg";
+import school from "../../assets/edu/school.png";
+import college from "../../assets/edu/college.jpg";
 import { Timeline, TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator } from '@mui/lab';
 import "./styles.css";
 

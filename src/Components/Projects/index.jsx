@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import crypto from "../../assets/Crypto.png";
-import finance from "../../assets/Finance.png";
+import crypto from "../../assets/pro/Crypto.png";
+import finance from "../../assets/pro/Finance.png";
+import portfolio from "../../assets/pro/portfolio.png";
+import sheet from "../../assets/pro/google_spreedsheet.png";
+import youtube from "../../assets/pro/youtube-clone.png";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import LaunchIcon from '@mui/icons-material/Launch';
@@ -30,6 +33,33 @@ const Projects = () => {
           desc: "A robust personal finance tracker using React, Firebase, and Ant Design with secure authentication and dynamic financial graphs.",
           codeLink: "https://github.com/debasisnayak12/Personal_Finance_Tracker",
           liveLink: "https://personal-finance-tracker-sable.vercel.app/",
+        },
+        {
+          img: portfolio,
+          head: "Portfolio",
+          duration: "June 2024",
+          skills: ["React Js", "CSS" , "Material UI"],
+          desc: "Created a modern portfolio website showcasing skills and projects in web development, utilizing technologies like React, css and packages for a seamless user experience and interactive design.",
+          codeLink: "https://github.com/debasisnayak12/portfolio",
+          liveLink: "https://portfolio-debasis-nayaks-projects.vercel.app/",
+        },
+        {
+          img: sheet,
+          head: "Google Spreadsheet",
+          duration: "Dec 2023",
+          skills: ["HTML", "CSS", "JavaScript"],
+          desc: "Engineered a fully-functional Google Spreadsheets using HTML, CSS, and JavaScript, replicating core spreadsheet functionalities such as cell editing, formatting, and data manipulation.",
+          codeLink: "https://github.com/debasisnayak12/Google_Sheet",
+          liveLink: "https://google-sheet-eight.vercel.app/",
+        },
+        {
+          img: youtube,
+          head: "Youtube Clone",
+          duration: "Dec 2023",
+          skills: ["HTML", "CSS", "JavaScript"],
+          desc: "Developed a YouTube clone using HTML, CSS, and JavaScript, featuring video playback,Search functionality, responsive design, and dynamic content loading for an enhanced user experience.",
+          codeLink: "https://github.com/debasisnayak12/youtube-clone",
+          liveLink: "https://youtube-clone-lilac-ten.vercel.app/",
         },
       ];
 

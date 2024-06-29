@@ -72,7 +72,7 @@ const About = () => {
         </div>
         <div className="resume-btn">
         <Link
-          to="https://drive.google.com/file/d/1C6R_pRZ1C9_NdrqJoIV5W1tuC9_blAo2/view?usp=sharing"
+          to="https://drive.google.com/file/d/10QIwbQvpIBsPT6jmJ37CTefLA5QSjp3Q/view?usp=sharing"
           target="_blank"
         >
           <button className="btn-grad">

@@ -8,7 +8,7 @@ import {
   TimelineItem,
   TimelineSeparator,
 } from "@mui/lab";
-import logo from "../../assets/acciojob_logo.jpg";
+import logo from "../../assets/exp/acciojob_logo.jpg";
 
 const Experience = () => {
   return (
