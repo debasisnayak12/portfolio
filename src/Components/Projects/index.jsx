@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import crypto from "../../assets/pro/Crypto.png";
+import notes from "../../assets/pro/notes.png";
 import finance from "../../assets/pro/Finance.png";
 import portfolio from "../../assets/pro/portfolio.png";
 import sheet from "../../assets/pro/google_spreedsheet.png";
@@ -24,6 +25,15 @@ const Projects = () => {
           desc: "A real-time Cryptocurrency tracker app built using React Js and CoinGecko API. Integrated features such as portfolio performance monitoring, price comparison, and time-based trend analysis to help users make informed investment decisions.",
           codeLink: "https://github.com/debasisnayak12/Crypto_Tracker",
           liveLink: "https://crypto-tracker-ashen-one.vercel.app/",
+        },
+        {
+          img: notes,
+          head: "Notes Making",
+          duration: "July 2024 - July 2024",
+          skills: ["React Js", "NodeJs", "ExpressJs", "MongoDB"],
+          desc: "Developed a note-taking app with MERN stack featuring user authentication, CRUD operations, and a responsive UI using React and Material-UI, ensuring secure and seamless user experience.",
+          codeLink: "https://github.com/debasisnayak12/notes-making",
+          liveLink: "https://notes-making-seven.vercel.app/",
         },
         {
           img: finance,
