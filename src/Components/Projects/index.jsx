@@ -51,7 +51,7 @@ const Projects = () => {
           skills: ["React Js", "CSS" , "Material UI"],
           desc: "Created a modern portfolio website showcasing skills and projects in web development, utilizing technologies like React, css and packages for a seamless user experience and interactive design.",
           codeLink: "https://github.com/debasisnayak12/portfolio",
-          liveLink: "https://portfolio-debasis-nayaks-projects.vercel.app/",
+          liveLink: "https://debasisnayak12.github.io/portfolio/",
         },
         {
           img: sheet,
