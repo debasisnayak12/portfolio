@@ -1,0 +1,117 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 8rem;
+}
+.left {
+  max-width: 60%;
+}
+.bio {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.passion {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.typewriter {
+  color: var(--primary);
+}
+.description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--grey);
+}
+.socials {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.social-icon {
+  border: 0.1rem solid #8f57ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.right img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 0.1rem solid #8f57ef;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .left {
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .bio {
+    font-size: 2rem;
+  }
+
+  .passion {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .socials {
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-grad {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+  }
+}

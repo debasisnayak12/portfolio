@@ -1,0 +1,8 @@
+.education{
+    margin: 2rem auto;
+}
+.job-grade{
+    color: var(--grey);
+   font-weight: 500;
+   font-size: 0.9rem;
+}
