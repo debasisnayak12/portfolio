@@ -17,6 +17,8 @@ import gitIcon from "../../assets/tech/Others/git-icon.png";
 import photoshopIcon from "../../assets/tech/Others/photoshop-icon.png";
 import postmanIcon from "../../assets/tech/Others/postman-icon.svg";
 import vscodeIcon from "../../assets/tech/Others/vsCode-icon.png";
+import vercelIcon from "../../assets/tech/Others/Vercel-logo.jpg";
+import renderIcon from "../../assets/tech/Others/render-logo.png";
 
 import "./styles.css";
 
@@ -113,6 +115,14 @@ const Skills = () => {
             <div className="cards-tech-bio">
                 <img src={photoshopIcon} className="cards-tech-img"/>
                Adobe Photoshop
+            </div>
+            <div className="cards-tech-bio">
+                <img src={vercelIcon} className="cards-tech-img"/>
+               Vercel
+            </div>
+            <div className="cards-tech-bio">
+                <img src={renderIcon} className="cards-tech-img"/>
+               Render
             </div>
           </div>
         </div>
